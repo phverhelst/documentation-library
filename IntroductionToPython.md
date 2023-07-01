@@ -1,10 +1,10 @@
-#(Prerequisite) Introduction to Python
+# (Prerequisite) Introduction to Python
 
 ## 1. Introduction
 
 ## 2. Variables
 
-## T3. ype Conversion Examples
+## 3. Type Conversion Examples
 
 ## 4. Operators
 
@@ -15,19 +15,19 @@
 
 ## 7. Lists
 
-# 8. Multidimensional List Examples
+## 8. Multidimensional List Examples
 
-# 9. Tuples Examples
+## 9. Tuples Examples
 
-# 10. Dictionaries
+## 10. Dictionaries
 
-# 11. Range Examples
+## 11. Range Examples
 
 
 
-# 12. Conditionals
+## 12. Conditionals
 
-# 14. If Statement
+## 14. If Statement
 ## 15. Loops
 
 ## 16. While Loops Examples
