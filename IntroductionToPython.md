@@ -3,11 +3,11 @@
 ## 1. Introduction
 
 ## 2. Variables
-bool :  False, True 
-float 
-int 
+bool :  False, True  
+float  
+int  
 str :  " " or ' '  
-type() 
+type()  
 
 ## 3. Type Conversion Examples
 
