@@ -3,31 +3,31 @@
 ## 1. Introduction
 
 ## 2. Variables
-bool False True
-float
-int
-str " " or ' '
-type()
+bool :  False, True 
+float 
+int 
+str :  " " or ' '  
+type() 
 
 ## 3. Type Conversion Examples
 
-## 4. Operators
-1. Arithemetic Operators
-+ - * / % // **
-2. Assignment Operators
-+= -= *= /= %= //= **=
+## 4. Operators  
+1. Arithemetic Operators  
++, -, *, /, %, //, **  
+2. Assignment Operators  
++=, -=, *=, /=, %=, //=, **=  
 
-3. Comparison Operators
-== != < <= > >=
+3. Comparison Operators    
+==, !=, <, <=, >, >=  
 
-4. Logical Operators
-not or and
+4. Logical Operators  
+not, or, and  
 
-5. Other Operators
-Ternary : if else
-Identity : is is not
-Membership : in not in
-Bitwise : & | ^ ~ << >>
+5. Other Operators  
+Ternary : if, else  
+Identity : is, is not  
+Membership : in, not in  
+Bitwise : &, |, ^, ~, <<, >>  
 
 ## 5. Operators Examples
 
