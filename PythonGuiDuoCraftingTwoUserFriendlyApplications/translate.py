@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter.ttk import Notebook
 import requests
+from tkinter import messagebox
 
 
 class Translate(tk.Tk):
@@ -9,14 +10,17 @@ class Translate(tk.Tk):
         if not text:
             text = self.english_entry.get(1.0, tk.END)
 
-        url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl={}&tl{}&dt=t&q={}".format("en", "target_language", text)
+        url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl={}&tl={}&dt=t&q={}".format("en", target_language, text)
 
         try:
             response = requests.get(url)
             response.raise_for_status()
             print(response.json())
+            self.spanish_translation.set(response.json()[0][0][0])
+            messagebox.showinfo("Translated", "Translation complete.")
         except Exception as e:
             print(e)
+            messagebox.showerror("Translation Failure", str(e))
 
 
     def __init__(self):
