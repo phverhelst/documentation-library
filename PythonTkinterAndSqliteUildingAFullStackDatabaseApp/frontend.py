@@ -42,6 +42,15 @@ price_text = StringVar()
 price_entry = Entry(root, textvariable = name_text)
 price_entry.grid(row = 1, column=3)
 
+def get_selected_row(event):
+    global get_selected_row
+    index = listbox.curselection()[0]
+    selected_row = listbox.get(index)
+    print(get_selected_row)
+
+listbox = Listbox(root, height=10, width=60)
+listbox.grid(row = 2, column=0, rowspan=4, columnspan=2)
+listbox.bind("<<ListBoxSelect>>", get_selected_row)
 
 
 root.mainloop()
