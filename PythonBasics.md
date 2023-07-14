@@ -1,51 +1,51 @@
 # Values and data types
 
 ## Data types
-Integer
-Float
-String
+Integer  
+Float  
+String  
 
 # Operators and operands
-()
-**
-*
-/ // %
-+
--
+()  
+**  
+*  
+/ // %  
++  
+-  
 
 Function Calls
-print()
-print(' ')
-print(" ")
-print(''' ''')
-print("",)
+print()  
+print(' ')  
+print(" ")  
+print(''' ''')  
+print("",)  
 
 # Data Types
-type()
+type()  
 
 # Type conversion
-int()
-float()
-str()
+int()  
+float()  
+str()  
 # Statements and Expressions
-len()
+len()  
 # Updating Variables
 # Hard-Coding
 # Input
-input()
+input()  
 # Turtle Graphics
-import turtle
-= turtle.Screen()
-= turtle.Turtle()
-.forward()
-.left()
-.right()
-.color()
-.pensize()
-.exitonclick()
-.bgcolor()
+import turtle  
+= turtle.Screen()  
+= turtle.Turtle()  
+.forward()  
+.left()  
+.right()  
+.color()  
+.pensize()  
+.exitonclick()  
+.bgcolor()  
 # Object Oriented Concepts
-User-defined Classes
-Instances
-Attributes
-Methods
+User-defined Classes  
+Instances  
+Attributes  
+Methods  
